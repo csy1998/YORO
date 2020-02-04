@@ -1,7 +1,6 @@
 #!/bin/sh
 
 export PYTHONPATH=$PYTHONPATH:/home/shuyin/yoro
-#export PYTHONPATH=$PYTHONPATH:/home/shuyin/ifluent-chinese
 
 export CUDA_VISIBLE_DEVICES=0;
 export NGPU=1; 
