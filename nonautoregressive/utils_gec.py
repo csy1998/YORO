@@ -10,7 +10,6 @@ from __future__ import absolute_import, division, print_function
 import os
 import logging
 from io import open
-import numpy
 import jsonlines
 import torch
 
