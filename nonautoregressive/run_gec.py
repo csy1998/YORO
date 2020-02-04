@@ -19,11 +19,11 @@ from torch.utils.data.distributed import DistributedSampler
 from tensorboardX import SummaryWriter
 from tqdm import tqdm, trange
 
-from pytorch_transformers import (WEIGHTS_NAME, BertConfig, BertTokenizer)
-from pytorch_transformers import AdamW, WarmupLinearSchedule
+# from pytorch_transformers import (WEIGHTS_NAME, BertConfig, BertTokenizer)
+# from pytorch_transformers import AdamW, WarmupLinearSchedule
 
-# from transformers import (WEIGHTS_NAME, BertConfig, BertTokenizer)
-# from transformers import AdamW, WarmupLinearSchedule
+from transformers import (WEIGHTS_NAME, BertConfig, BertTokenizer)
+from transformers import AdamW, WarmupLinearSchedule
 
 from nonautoregressive.bert_for_gec import BertForNonAutoregressiveGec
 
